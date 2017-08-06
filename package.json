@@ -1,0 +1,31 @@
+{
+  "name": "node-scrapper",
+  "version": "1.0.0",
+  "description": "a web scrapper using node",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akashmitra/node-scrapper.git"
+  },
+  "keywords": [
+    "scrapper",
+    "parser",
+    "nodejs",
+    "cheerio",
+    "icarus"
+  ],
+  "author": "Akash Mitra",
+  "dependencies": {
+    "express": "latest",
+    "request": "latest",
+    "cheerio": "latest"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akashmitra/node-scrapper/issues"
+  },
+  "homepage": "https://github.com/akashmitra/node-scrapper#readme"
+}
