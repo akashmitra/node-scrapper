@@ -9,10 +9,9 @@
     var http = require('http').Server(app);
     var port = process.env.PORT || 8080;
 
-    
+
     app.get('/scrape', function (req, res) {
 
-        // The URL we will scrape from - in our example Anchorman 2.
         var url = 'http://www.imdb.com/title/tt1229340/';
 
         /**
@@ -53,7 +52,7 @@
                 console.log('File successfully written! - Check your project directory for the output.json file');
             });
 
-            // Finally, we'll just send out a message to the browser reminding you that this app does not have a UI.
+            // Send out a message to the browser
             res.send('Check your console!');
 
         }); //End of Request
